@@ -19,7 +19,7 @@ const Resume = () => {
                         <h3 className="resume-title">Professional Experience</h3>
                         <div className="resume-item">
                             <h4>Senior web development strategist</h4>
-                            <h5>2023 - Present</h5>
+                            <h5>2023 - 2024</h5>
                             <p><em>Pink Lemonade, Bangalore, Karnataka </em></p>
                         </div>
                         <div className="resume-item">
