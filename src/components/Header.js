@@ -236,10 +236,10 @@ const Header = () => {
                     <i className="bi bi-list mobile-nav-toggle"></i>
                 </nav>
                 <div className="social-links">
-                    <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
+                    {/* <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
                     <a href="#" className="facebook"><i className="bx bxl-facebook"></i></a>
-                    <a href="#" className="instagram"><i className="bx bxl-instagram"></i></a>
-                    <a href="#" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+                    <a href="#" className="instagram"><i className="bx bxl-instagram"></i></a> */}
+                    <a href="https://www.linkedin.com/in/muqtiyar-ahmed-a-b988aaa8/" target='_blank' className="linkedin"><i className="bx bxl-linkedin"></i></a>
                 </div>
             </div>
         </header>

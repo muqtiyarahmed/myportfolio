@@ -1,9 +1,8 @@
 {
-  
   "name": "myportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://muqtiyarahmed153.github.io/myportfolio/",
+  "homepage": "https://muqtiyarahmed.github.io/myportfolio",
   "dependencies": {
     "@srexi/purecounterjs": "^1.5.0",
     "@testing-library/jest-dom": "^5.17.0",
