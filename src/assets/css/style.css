@@ -1253,7 +1253,7 @@ section .container {
     line-height: 2;
   }
 
-  #header .social-links{
+  #header .social-links {
     margin-top: 0;
   }
 }
@@ -1265,4 +1265,68 @@ section .container {
 
 .portfolio .portfolio-wrap::before {
   background: rgba(0, 0, 0, 0.8);
+}
+
+@media all and (max-width: 575px) {
+
+  #header h2 {
+    font-size: 17px;
+  }
+
+  .about-me.container {
+    padding: 30px 15px;
+  }
+
+  .services .icon-box h4 {
+    font-size: 18px;
+  }
+
+  .services .icon-box {
+    padding: 30px 15px;
+  }
+
+  .contact .container {
+    padding: 30px 15px;
+  }
+
+  .portfolio .portfolio-wrap .portfolio-info::before,
+  .portfolio .portfolio-wrap .portfolio-info::after {
+    width: 20px;
+    height: 20px;
+    border-width: 1px;
+  }
+
+  .portfolio .portfolio-wrap:hover .portfolio-info::before {
+    top: 5px;
+    left: 5px;
+  }
+
+  .portfolio .portfolio-wrap:hover .portfolio-info::after {
+    bottom: 5px;
+    right: 5px;
+  }
+
+  .portfolio .portfolio-item {
+    padding: 5px;
+  }
+
+  .portfolio .portfolio-wrap .portfolio-info {
+    padding: 10px;
+  }
+
+  .portfolio .portfolio-wrap .portfolio-links a {
+    font-size: 20px;
+  }
+
+  .portfolio .portfolio-wrap .portfolio-info h4 {
+    font-size: 18px;
+  }
+
+  .portfolio .portfolio-wrap .portfolio-info p {
+    font-size: 12px;
+  }
+
+  .portfolio #portfolio-flters {
+    padding: 0;
+  }
 }
